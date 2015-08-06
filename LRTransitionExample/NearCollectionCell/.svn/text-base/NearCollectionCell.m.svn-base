@@ -1,0 +1,42 @@
+//
+//  NearCollectionCell.m
+//  WJContact
+//
+//  Created by RomitLee on 15/7/28.
+//  Copyright (c) 2015年 BlueMobi. All rights reserved.
+//
+
+#import "NearCollectionCell.h"
+#import "WJPrecompiled.h"
+#import "ToolClass.h"
+@interface NearCollectionCell()
+@property (weak, nonatomic) IBOutlet UIView *distenView;
+@property (weak, nonatomic) IBOutlet UILabel *disLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *headImage;
+
+@end
+
+@implementation NearCollectionCell
+
+
+- (void)awakeFromNib {
+    // Initialization code
+    
+    _distenView.backgroundColor=TonyColor(0, 0, 0, 0.3);
+    
+    self.headImage.layer.shadowColor = TonyColor(0, 0, 0, 1).CGColor;//阴影颜色
+    self.headImage.layer.shadowOffset = CGSizeMake(1, 1);//偏移距离
+    self.headImage.layer.shadowOpacity = 0.5;//不透明度
+    self.headImage.layer.shadowRadius = 2.0;//半径
+    
+}
+
+-(void)setData
+{
+    int x = arc4random() % 61;
+    
+    
+    [self.headImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://7xkrx6.com1.z0.glb.clouddn.com/qq%d.jpg",x]]];
+}
+
+@end

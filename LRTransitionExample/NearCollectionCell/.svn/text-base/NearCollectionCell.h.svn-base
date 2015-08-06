@@ -1,0 +1,13 @@
+//
+//  NearCollectionCell.h
+//  WJContact
+//
+//  Created by RomitLee on 15/7/28.
+//  Copyright (c) 2015年 BlueMobi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface NearCollectionCell : UICollectionViewCell
+-(void)setData;
+@end

@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E27A6D471B72639400D344B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D461B72639400D344B1 /* main.m */; };
+		E27A6D4A1B72639400D344B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D491B72639400D344B1 /* AppDelegate.m */; };
+		E27A6D521B72639400D344B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D511B72639400D344B1 /* Images.xcassets */; };
+		E27A6D551B72639400D344B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D531B72639400D344B1 /* LaunchScreen.xib */; };
+		E27A6D611B72639400D344B1 /* LRTransitionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D601B72639400D344B1 /* LRTransitionExampleTests.m */; };
+		E27A6D6D1B7263BB00D344B1 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D6B1B7263BB00D344B1 /* HomeVC.m */; };
+		E27A6D6E1B7263BB00D344B1 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D6C1B7263BB00D344B1 /* HomeVC.xib */; };
+		E27A6D861B72669500D344B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D701B72669500D344B1 /* FirstViewController.m */; };
+		E27A6D871B72669500D344B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D721B72669500D344B1 /* SecondViewController.m */; };
+		E27A6D881B72669500D344B1 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D731B72669500D344B1 /* SecondViewController.xib */; };
+		E27A6D891B72669500D344B1 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D751B72669500D344B1 /* Thing.m */; };
+		E27A6D8B1B72669500D344B1 /* TransitionFromFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D791B72669500D344B1 /* TransitionFromFirstToSecond.m */; };
+		E27A6D8D1B72669500D344B1 /* NearCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D7E1B72669500D344B1 /* NearCollectionCell.m */; };
+		E27A6D8E1B72669500D344B1 /* NearCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D7F1B72669500D344B1 /* NearCollectionCell.xib */; };
+		E27A6D8F1B72669500D344B1 /* thing01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D811B72669500D344B1 /* thing01.jpg */; };
+		E27A6D901B72669500D344B1 /* thing02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D821B72669500D344B1 /* thing02.jpg */; };
+		E27A6D911B72669500D344B1 /* thing03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D831B72669500D344B1 /* thing03.jpg */; };
+		E27A6D921B72669500D344B1 /* thing04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D841B72669500D344B1 /* thing04.jpg */; };
+		E27A6D931B72669500D344B1 /* thing05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27A6D851B72669500D344B1 /* thing05.jpg */; };
+		E27A6D961B726DCD00D344B1 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D951B726DCD00D344B1 /* PushViewController.m */; };
+		E27A6D9F1B726E2C00D344B1 /* AnimatedOne.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D981B726E2C00D344B1 /* AnimatedOne.m */; };
+		E27A6DA01B726E2C00D344B1 /* AnimatedTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D9A1B726E2C00D344B1 /* AnimatedTwo.m */; };
+		E27A6DA11B726E2C00D344B1 /* LRNAvigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D9C1B726E2C00D344B1 /* LRNAvigationDelegate.m */; };
+		E27A6DA21B726E2C00D344B1 /* LRTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6D9E1B726E2C00D344B1 /* LRTransitioningDelegate.m */; };
+		E27A6DA51B72703900D344B1 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A6DA41B72703900D344B1 /* PresentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E27A6D5B1B72639400D344B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27A6D391B72639400D344B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27A6D401B72639400D344B1;
+			remoteInfo = LRTransitionExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E27A6D411B72639400D344B1 /* LRTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27A6D451B72639400D344B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27A6D461B72639400D344B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E27A6D481B72639400D344B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E27A6D491B72639400D344B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E27A6D511B72639400D344B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E27A6D541B72639400D344B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E27A6D5A1B72639400D344B1 /* LRTransitionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTransitionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27A6D5F1B72639400D344B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27A6D601B72639400D344B1 /* LRTransitionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTransitionExampleTests.m; sourceTree = "<group>"; };
+		E27A6D6A1B7263BB00D344B1 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		E27A6D6B1B7263BB00D344B1 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		E27A6D6C1B7263BB00D344B1 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		E27A6D6F1B72669500D344B1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E27A6D701B72669500D344B1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E27A6D711B72669500D344B1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E27A6D721B72669500D344B1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E27A6D731B72669500D344B1 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E27A6D741B72669500D344B1 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
+		E27A6D751B72669500D344B1 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
+		E27A6D781B72669500D344B1 /* TransitionFromFirstToSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromFirstToSecond.h; sourceTree = "<group>"; };
+		E27A6D791B72669500D344B1 /* TransitionFromFirstToSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromFirstToSecond.m; sourceTree = "<group>"; };
+		E27A6D7D1B72669500D344B1 /* NearCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearCollectionCell.h; sourceTree = "<group>"; };
+		E27A6D7E1B72669500D344B1 /* NearCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearCollectionCell.m; sourceTree = "<group>"; };
+		E27A6D7F1B72669500D344B1 /* NearCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearCollectionCell.xib; sourceTree = "<group>"; };
+		E27A6D811B72669500D344B1 /* thing01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing01.jpg; sourceTree = "<group>"; };
+		E27A6D821B72669500D344B1 /* thing02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing02.jpg; sourceTree = "<group>"; };
+		E27A6D831B72669500D344B1 /* thing03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing03.jpg; sourceTree = "<group>"; };
+		E27A6D841B72669500D344B1 /* thing04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing04.jpg; sourceTree = "<group>"; };
+		E27A6D851B72669500D344B1 /* thing05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing05.jpg; sourceTree = "<group>"; };
+		E27A6D941B726DCD00D344B1 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		E27A6D951B726DCD00D344B1 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		E27A6D971B726E2C00D344B1 /* AnimatedOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedOne.h; sourceTree = "<group>"; };
+		E27A6D981B726E2C00D344B1 /* AnimatedOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedOne.m; sourceTree = "<group>"; };
+		E27A6D991B726E2C00D344B1 /* AnimatedTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTwo.h; sourceTree = "<group>"; };
+		E27A6D9A1B726E2C00D344B1 /* AnimatedTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTwo.m; sourceTree = "<group>"; };
+		E27A6D9B1B726E2C00D344B1 /* LRNAvigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRNAvigationDelegate.h; sourceTree = "<group>"; };
+		E27A6D9C1B726E2C00D344B1 /* LRNAvigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRNAvigationDelegate.m; sourceTree = "<group>"; };
+		E27A6D9D1B726E2C00D344B1 /* LRTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTransitioningDelegate.h; sourceTree = "<group>"; };
+		E27A6D9E1B726E2C00D344B1 /* LRTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTransitioningDelegate.m; sourceTree = "<group>"; };
+		E27A6DA31B72703900D344B1 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PresentViewController.h; path = ../PresentViewController.h; sourceTree = "<group>"; };
+		E27A6DA41B72703900D344B1 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PresentViewController.m; path = ../PresentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27A6D3E1B72639400D344B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27A6D571B72639400D344B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E27A6D381B72639400D344B1 = {
+			isa = PBXGroup;
+			children = (
+				E27A6D971B726E2C00D344B1 /* AnimatedOne.h */,
+				E27A6D981B726E2C00D344B1 /* AnimatedOne.m */,
+				E27A6D991B726E2C00D344B1 /* AnimatedTwo.h */,
+				E27A6D9A1B726E2C00D344B1 /* AnimatedTwo.m */,
+				E27A6D9B1B726E2C00D344B1 /* LRNAvigationDelegate.h */,
+				E27A6D9C1B726E2C00D344B1 /* LRNAvigationDelegate.m */,
+				E27A6D9D1B726E2C00D344B1 /* LRTransitioningDelegate.h */,
+				E27A6D9E1B726E2C00D344B1 /* LRTransitioningDelegate.m */,
+				E27A6D431B72639400D344B1 /* LRTransitionExample */,
+				E27A6D5D1B72639400D344B1 /* LRTransitionExampleTests */,
+				E27A6D421B72639400D344B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27A6D421B72639400D344B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D411B72639400D344B1 /* LRTransitionExample.app */,
+				E27A6D5A1B72639400D344B1 /* LRTransitionExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27A6D431B72639400D344B1 /* LRTransitionExample */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D6F1B72669500D344B1 /* FirstViewController.h */,
+				E27A6D701B72669500D344B1 /* FirstViewController.m */,
+				E27A6D711B72669500D344B1 /* SecondViewController.h */,
+				E27A6D721B72669500D344B1 /* SecondViewController.m */,
+				E27A6D731B72669500D344B1 /* SecondViewController.xib */,
+				E27A6D741B72669500D344B1 /* Thing.h */,
+				E27A6D751B72669500D344B1 /* Thing.m */,
+				E27A6D781B72669500D344B1 /* TransitionFromFirstToSecond.h */,
+				E27A6D791B72669500D344B1 /* TransitionFromFirstToSecond.m */,
+				E27A6D7C1B72669500D344B1 /* NearCollectionCell */,
+				E27A6D801B72669500D344B1 /* Thing images */,
+				E27A6D481B72639400D344B1 /* AppDelegate.h */,
+				E27A6D491B72639400D344B1 /* AppDelegate.m */,
+				E27A6D511B72639400D344B1 /* Images.xcassets */,
+				E27A6D531B72639400D344B1 /* LaunchScreen.xib */,
+				E27A6D441B72639400D344B1 /* Supporting Files */,
+				E27A6D6A1B7263BB00D344B1 /* HomeVC.h */,
+				E27A6D6B1B7263BB00D344B1 /* HomeVC.m */,
+				E27A6D6C1B7263BB00D344B1 /* HomeVC.xib */,
+				E27A6DA31B72703900D344B1 /* PresentViewController.h */,
+				E27A6DA41B72703900D344B1 /* PresentViewController.m */,
+				E27A6D941B726DCD00D344B1 /* PushViewController.h */,
+				E27A6D951B726DCD00D344B1 /* PushViewController.m */,
+			);
+			path = LRTransitionExample;
+			sourceTree = "<group>";
+		};
+		E27A6D441B72639400D344B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D451B72639400D344B1 /* Info.plist */,
+				E27A6D461B72639400D344B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27A6D5D1B72639400D344B1 /* LRTransitionExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D601B72639400D344B1 /* LRTransitionExampleTests.m */,
+				E27A6D5E1B72639400D344B1 /* Supporting Files */,
+			);
+			path = LRTransitionExampleTests;
+			sourceTree = "<group>";
+		};
+		E27A6D5E1B72639400D344B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D5F1B72639400D344B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27A6D7C1B72669500D344B1 /* NearCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D7D1B72669500D344B1 /* NearCollectionCell.h */,
+				E27A6D7E1B72669500D344B1 /* NearCollectionCell.m */,
+				E27A6D7F1B72669500D344B1 /* NearCollectionCell.xib */,
+			);
+			path = NearCollectionCell;
+			sourceTree = "<group>";
+		};
+		E27A6D801B72669500D344B1 /* Thing images */ = {
+			isa = PBXGroup;
+			children = (
+				E27A6D811B72669500D344B1 /* thing01.jpg */,
+				E27A6D821B72669500D344B1 /* thing02.jpg */,
+				E27A6D831B72669500D344B1 /* thing03.jpg */,
+				E27A6D841B72669500D344B1 /* thing04.jpg */,
+				E27A6D851B72669500D344B1 /* thing05.jpg */,
+			);
+			path = "Thing images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27A6D401B72639400D344B1 /* LRTransitionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27A6D641B72639400D344B1 /* Build configuration list for PBXNativeTarget "LRTransitionExample" */;
+			buildPhases = (
+				E27A6D3D1B72639400D344B1 /* Sources */,
+				E27A6D3E1B72639400D344B1 /* Frameworks */,
+				E27A6D3F1B72639400D344B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRTransitionExample;
+			productName = LRTransitionExample;
+			productReference = E27A6D411B72639400D344B1 /* LRTransitionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27A6D591B72639400D344B1 /* LRTransitionExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27A6D671B72639400D344B1 /* Build configuration list for PBXNativeTarget "LRTransitionExampleTests" */;
+			buildPhases = (
+				E27A6D561B72639400D344B1 /* Sources */,
+				E27A6D571B72639400D344B1 /* Frameworks */,
+				E27A6D581B72639400D344B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27A6D5C1B72639400D344B1 /* PBXTargetDependency */,
+			);
+			name = LRTransitionExampleTests;
+			productName = LRTransitionExampleTests;
+			productReference = E27A6D5A1B72639400D344B1 /* LRTransitionExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27A6D391B72639400D344B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BlueMobi;
+				TargetAttributes = {
+					E27A6D401B72639400D344B1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E27A6D591B72639400D344B1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E27A6D401B72639400D344B1;
+					};
+				};
+			};
+			buildConfigurationList = E27A6D3C1B72639400D344B1 /* Build configuration list for PBXProject "LRTransitionExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27A6D381B72639400D344B1;
+			productRefGroup = E27A6D421B72639400D344B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27A6D401B72639400D344B1 /* LRTransitionExample */,
+				E27A6D591B72639400D344B1 /* LRTransitionExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27A6D3F1B72639400D344B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27A6D551B72639400D344B1 /* LaunchScreen.xib in Resources */,
+				E27A6D6E1B7263BB00D344B1 /* HomeVC.xib in Resources */,
+				E27A6D881B72669500D344B1 /* SecondViewController.xib in Resources */,
+				E27A6D901B72669500D344B1 /* thing02.jpg in Resources */,
+				E27A6D8E1B72669500D344B1 /* NearCollectionCell.xib in Resources */,
+				E27A6D521B72639400D344B1 /* Images.xcassets in Resources */,
+				E27A6D8F1B72669500D344B1 /* thing01.jpg in Resources */,
+				E27A6D911B72669500D344B1 /* thing03.jpg in Resources */,
+				E27A6D921B72669500D344B1 /* thing04.jpg in Resources */,
+				E27A6D931B72669500D344B1 /* thing05.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27A6D581B72639400D344B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27A6D3D1B72639400D344B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27A6D8B1B72669500D344B1 /* TransitionFromFirstToSecond.m in Sources */,
+				E27A6D9F1B726E2C00D344B1 /* AnimatedOne.m in Sources */,
+				E27A6D6D1B7263BB00D344B1 /* HomeVC.m in Sources */,
+				E27A6D961B726DCD00D344B1 /* PushViewController.m in Sources */,
+				E27A6DA51B72703900D344B1 /* PresentViewController.m in Sources */,
+				E27A6D871B72669500D344B1 /* SecondViewController.m in Sources */,
+				E27A6D891B72669500D344B1 /* Thing.m in Sources */,
+				E27A6D861B72669500D344B1 /* FirstViewController.m in Sources */,
+				E27A6DA01B726E2C00D344B1 /* AnimatedTwo.m in Sources */,
+				E27A6DA21B726E2C00D344B1 /* LRTransitioningDelegate.m in Sources */,
+				E27A6D8D1B72669500D344B1 /* NearCollectionCell.m in Sources */,
+				E27A6D4A1B72639400D344B1 /* AppDelegate.m in Sources */,
+				E27A6DA11B726E2C00D344B1 /* LRNAvigationDelegate.m in Sources */,
+				E27A6D471B72639400D344B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27A6D561B72639400D344B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27A6D611B72639400D344B1 /* LRTransitionExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E27A6D5C1B72639400D344B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27A6D401B72639400D344B1 /* LRTransitionExample */;
+			targetProxy = E27A6D5B1B72639400D344B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E27A6D531B72639400D344B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27A6D541B72639400D344B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27A6D621B72639400D344B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E27A6D631B72639400D344B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27A6D651B72639400D344B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRTransitionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E27A6D661B72639400D344B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRTransitionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E27A6D681B72639400D344B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LRTransitionExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTransitionExample.app/LRTransitionExample";
+			};
+			name = Debug;
+		};
+		E27A6D691B72639400D344B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LRTransitionExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTransitionExample.app/LRTransitionExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27A6D3C1B72639400D344B1 /* Build configuration list for PBXProject "LRTransitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27A6D621B72639400D344B1 /* Debug */,
+				E27A6D631B72639400D344B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27A6D641B72639400D344B1 /* Build configuration list for PBXNativeTarget "LRTransitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27A6D651B72639400D344B1 /* Debug */,
+				E27A6D661B72639400D344B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E27A6D671B72639400D344B1 /* Build configuration list for PBXNativeTarget "LRTransitionExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27A6D681B72639400D344B1 /* Debug */,
+				E27A6D691B72639400D344B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27A6D391B72639400D344B1 /* Project object */;
+}

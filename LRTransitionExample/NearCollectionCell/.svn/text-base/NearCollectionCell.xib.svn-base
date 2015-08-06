@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NearCollectionCell">
+            <rect key="frame" x="0.0" y="2" width="144" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="144" height="144"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qq1" translatesAutoresizingMaskIntoConstraints="NO" id="JS7-fl-IiT">
+                        <rect key="frame" x="5" y="5" width="134" height="134"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhI-A9-uoO">
+                        <rect key="frame" x="78" y="117" width="61" height="22"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MIneInfo-location" translatesAutoresizingMaskIntoConstraints="NO" id="n26-J5-hyf">
+                                <rect key="frame" x="5" y="5.5" width="7" height="10"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="220m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS4-xh-kh4">
+                                <rect key="frame" x="22" y="6" width="23.5" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="61" id="J5X-4f-zqG"/>
+                            <constraint firstItem="n26-J5-hyf" firstAttribute="leading" secondItem="VhI-A9-uoO" secondAttribute="leading" constant="5" id="Jw0-8Y-fiM"/>
+                            <constraint firstAttribute="centerY" secondItem="GS4-xh-kh4" secondAttribute="centerY" constant="-0.5" id="MsE-tU-UCY"/>
+                            <constraint firstAttribute="height" constant="22" id="fzy-JV-SFP"/>
+                            <constraint firstAttribute="centerY" secondItem="n26-J5-hyf" secondAttribute="centerY" id="knB-39-t80"/>
+                            <constraint firstItem="GS4-xh-kh4" firstAttribute="leading" secondItem="VhI-A9-uoO" secondAttribute="leading" constant="22" id="pyd-8G-xHQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JS7-fl-IiT" secondAttribute="bottom" constant="5" id="CqO-eH-4hy"/>
+                <constraint firstItem="JS7-fl-IiT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="LWC-rF-5eG"/>
+                <constraint firstAttribute="bottom" secondItem="VhI-A9-uoO" secondAttribute="bottom" constant="5" id="bPt-Pe-3Wm"/>
+                <constraint firstItem="JS7-fl-IiT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="pBH-KY-dSS"/>
+                <constraint firstAttribute="trailing" secondItem="JS7-fl-IiT" secondAttribute="trailing" constant="5" id="uhM-8u-de3"/>
+                <constraint firstAttribute="trailing" secondItem="VhI-A9-uoO" secondAttribute="trailing" constant="5" id="zhP-of-Vf5"/>
+            </constraints>
+            <size key="customSize" width="144" height="144"/>
+            <connections>
+                <outlet property="disLabel" destination="GS4-xh-kh4" id="DPN-7a-YDi"/>
+                <outlet property="distenView" destination="VhI-A9-uoO" id="YQm-h6-8Ti"/>
+                <outlet property="headImage" destination="JS7-fl-IiT" id="ck5-gi-BoC"/>
+            </connections>
+            <point key="canvasLocation" x="296" y="369"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="MIneInfo-location" width="7" height="10"/>
+        <image name="qq1" width="100" height="100"/>
+    </resources>
+</document>
